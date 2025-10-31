@@ -54,8 +54,8 @@ def on_trackbar_contrast(cntr):
     do_brightness_contrast()
 
 if __name__ == "__main__":
-    #fname = 'homework/inside-1.JPG'
-    fname = 'homework/lowlight-street-2.JPG'
+    fname = 'homework/lowlight-street-4.JPG'
+    #fname = 'homework/lowlight-street-2.JPG'
     im = cv2.imread(fname)
 
     new_image = im.copy()

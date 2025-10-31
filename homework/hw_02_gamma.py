@@ -22,9 +22,9 @@ def apply_lut(image, lut, label_text):
     cv2.imshow('Gamma', im_lut)
     
 
-
-img_1 = cv2.imread('homework/lowlight-street-2.JPG', cv2.IMREAD_COLOR)
-img_2 = cv2.imread('homework/lowlight-street-4.JPG', cv2.IMREAD_COLOR)
+#fname = 'homework/inside-1.JPG'
+fname = 'homework/lowlight-street-1.JPG'
+img_1 = cv2.imread(fname, cv2.IMREAD_COLOR)
 
 cv2.imshow('gamma', img_1)
 cv2.namedWindow('Gamma')                 # create the window first
